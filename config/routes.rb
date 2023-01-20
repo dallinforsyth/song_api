@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   patch "/songs/:id" => "songs#update"
 
+  delete "/songs/:id" => "songs#destroy"
+
   # create   destroy  DELETE  update PATCH upload?   create POST
 
 end
