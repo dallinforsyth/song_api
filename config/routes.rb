@@ -10,6 +10,8 @@ Rails.application.routes.draw do
 
   post "/songs" => "songs#create"
 
+  patch "/songs/:id" => "songs#update"
+
   # create   destroy  DELETE  update PATCH upload?   create POST
 
 end
