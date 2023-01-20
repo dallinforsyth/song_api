@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get "/songs" => "songs#index"
 
-  # create   destroy  DELETE  update PATCH upload?
+  post "/songs" => "songs#create"
+
+  # create   destroy  DELETE  update PATCH upload?   create POST
 
 end
